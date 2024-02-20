@@ -9,7 +9,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "deploy": "pnpm run build && gh-pages -d build -m \"Updates --skip-ci\""
+    "deploy": "pnpm run build && gh-pages -d dist -m \"Updates --skip-ci\""
   },
   "dependencies": {
     "@astrojs/check": "^0.5.4",
